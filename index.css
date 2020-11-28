@@ -12,8 +12,8 @@
 @import 'stylesheets/labels.css';
 
 body {
-    background: url(./assets/images/back.jpg);
-
+    background: url(./assets/images/plus.svg);
+background-size: 8em;
     font-size: 1em;
     margin: 0;
     min-height: 100vh;
