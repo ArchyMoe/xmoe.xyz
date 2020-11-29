@@ -281,6 +281,7 @@
 </section>
 <div class="menu showmsg">
     <a class="animate-init click" rel="noopener noreferrer"><strong>Blog</strong></a>
+    <a class="animate-init click" rel="noopener noreferrer"><strong>Friends</strong></a>
     <a class="animate-init click" rel="external nofollow noopener noreferrer"><strong>Github</strong></a>
     <a class="animate-init" rel="external nofollow noopener noreferrer">@ArchyMoe</a>
     <div class="location">
@@ -332,7 +333,15 @@
             $('.relocating').css('opacity', 1);
 
             window.setTimeout(function () {
-                window.location.href = 'http://blog.xmoe.xyz';
+                window.location.href = 'https://blog.xmoe.xyz';
+            }, 500);
+        });
+	$(".click:contains(Friends)").on('click', function (event) {
+            $('.relocate-location').text('My Friends');
+            $('.relocating').css('opacity', 1);
+
+            window.setTimeout(function () {
+                window.location.href = 'https://xmoe.xyz/friends.html';
             }, 500);
         });
         $(".click:contains(Github)").on('click', function (event) {
